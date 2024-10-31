@@ -1,0 +1,3 @@
+g++ -std=c++17 -Wall main.cpp -o minecraft_updater -lcurl -lssl -lcrypto -lz -ldl -lpthread -static-libstdc++ -static-libgcc -static
+
+g++ -std=c++17 -Wall main.cpp -o minecraft_updater -lcurl -lssl -lcrypto -lz -ldl -lpthread -lgssapi_krb5 -static-libstdc++ -static-libgcc -static
